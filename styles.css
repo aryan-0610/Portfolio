@@ -1,0 +1,110 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  header {
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .typewriter {
+    font-size: 1.2rem;
+    color: #ffa500;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #ffa500;
+    animation: typing 3s steps(40, end), blink 0.5s step-end infinite;
+  }
+  
+  /* Main Sections */
+  main section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 0.5rem 0;
+  }
+  
+  /* Social Links */
+  .social-links li {
+    margin: 1rem 0;
+  }
+  
+  .social-links a {
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color: #00aced;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+    color: #aaaaaa;
+    font-size: 0.9rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    from {
+      border-color: transparent;
+    }
+    to {
+      border-color: #ffa500;
+    }
+  }
+  
